@@ -42,8 +42,9 @@ systemctl enable sshd
 
 ### 2. DDNSTO 添加远程 SSH
 
-1. 登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
-2. 设备管理 → 设备 → 远程应用 → 点击 "+添加应用" → 选择 **"SSH"**
+登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 选择设备 → 远程应用 → 点击 "添加应用" → 选择 **"SSH"**
+
+![添加远程下载](../resources/cloudapp/cloudapp-aria2-3.jpeg)
 
 | 配置项 | 值 | 说明 |
 |-------|-----|------|
@@ -56,7 +57,7 @@ systemctl enable sshd
 ![添加SSH](../resources/cloudapp/cloudapp-ssh1.jpeg)
 
 
-**注意：** 如果设备使用密钥认证，☑️「密钥登录」，输入密钥即可。
+**注意：** 如果设备使用密钥认证，☑️「使用密钥登录」，输入密钥即可。
 
 ![SSH列表](../resources/cloudapp/cloudapp-ssh4.jpeg)
 
@@ -64,7 +65,7 @@ systemctl enable sshd
 
 ### 3. 开始远程 SSH
 
-1.   - **"添加完成"** 后 → 远程应用 → 点击刚添加的 **"SSH应用"** 即可进入
+1. **"添加完成"** 后 → 远程应用 → 点击刚添加的 **"SSH应用"** 连接即可
 
 ![SSH列表](../resources/cloudapp/cloudapp-ssh2.jpeg)
 
@@ -134,11 +135,14 @@ journalctl -f
 
 ### 配置步骤
 
-1. 设备管理 → 设备 → 远程应用 → 点击 "+添加应用" → 选择 **"远程Telnet"**
+1. 选择设备 → 远程应用 → "添加应用" → 选择 **"远程Telnet"**
+
+![添加远程下载](../resources/cloudapp/cloudapp-aria2-3.jpeg)
+
+2. 填写配置（类似 SSH）
 
 ![添加Telnet](../resources/cloudapp/cloudapp-telnet1.jpeg)
 
-2. 填写配置（类似 SSH）
 3. 点击刚添加的 **"Telnet应用"** 即可通过 Telnet 连接
 
 ![Telnet终端](../resources/cloudapp/cloudapp-telnet2.jpeg)
