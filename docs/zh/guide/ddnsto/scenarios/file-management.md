@@ -8,6 +8,10 @@
 
 ---
 
+- ### <font color="#dd0000">注意：文件管理仅付费套餐（标准和高级）可用！</font><br />
+- ### <font color="#dd0000">注意：文件管理需 DDNSTO 支持拓展功能。</font><br />
+- #### <font color="#dd0000">注意：仅 "iStoreOS/OpenWrt/ASUSGO 固件" 安装 DDNSTO 可开启拓展功能。</font><br />
+
 ## 功能概述
 
 DDNSTO 文件管理功能让你可以在浏览器中远程访问：
@@ -19,10 +23,8 @@ DDNSTO 文件管理功能让你可以在浏览器中远程访问：
 **使用条件：**
 - ✅ 已购买会员套餐
 - ✅ DDNSTO 已启用扩展功能
-- ### <font color="#dd0000">DDNSTO 仅支持 "iStoreOS/OpenWrt/ASUSGO 固件" 开启拓展功能！</font><br />
 - ✅ 设备挂载的磁盘建议使用 **EXT4** 格式，不建议使用 **NTFS**。
 - ✅ 仅支持 PC 端浏览器
-
 
 ---
 
@@ -57,11 +59,11 @@ DDNSTO 文件管理功能让你可以在浏览器中远程访问：
 
 ## 添加文件管理协议
 
-DDNSTO 控制台 → 设备管理 → 选择已绑定设备：点击 **"文件管理"** → **"添加"**
+登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 选择设备 → **"文件管理"** → **"添加文件管理"**
 
 ![添加文件管理](../resources/ddnstofile/7.png)
 
-支持 webdav/samba/sftp 协议！
+**"类型"** → 支持 webdav/samba/sftp 协议！
 
 ![添加文件管理](../resources/ddnstofile/11.png)
 
@@ -77,11 +79,11 @@ DDNSTO 控制台 → 设备管理 → 选择已绑定设备：点击 **"文件�
 | 账号 | WebDav账号 | 如实填写；若用 DDNSTO 开启的 WebDAV，按设定填写。 |
 | 密码 | WebDav密码 | 如实填写；若用 DDNSTO 开启的 WebDAV，按设定填写。 |
 
-填写WebDav协议的账号和密码，并添加，可选将账号和密码保存到浏览器。
+* 填写WebDav协议的账号和密码，并添加，可选将账号和密码保存到浏览器。
 
 ![WebDAV配置](../resources/ddnstofile/8.png)
 
-点击 WebDav 图标即可访问。
+* 点击添加的 WebDav 即可访问。
 
 ![WebDAV文件管理](../resources/ddnstofile/9.png)
 
@@ -110,11 +112,11 @@ DDNSTO 控制台 → 设备管理 → 选择已绑定设备：点击 **"文件�
 
 ![WebDAV文件管理](../resources/ddnstofile/15.png)
 
-填写Samba协议的账号和密码，并添加，可选将账号和密码保存到浏览器。
+* 填写Samba协议的账号和密码，并添加，可选将账号和密码保存到浏览器。
 
 ![WebDAV配置](../resources/ddnstofile/12.png)
 
-点击 Samba 图标即可访问。
+* 点击添加的 Samba 即可访问。
 
 ![WebDAV文件管理](../resources/ddnstofile/13.png)
 
@@ -131,11 +133,11 @@ DDNSTO 控制台 → 设备管理 → 选择已绑定设备：点击 **"文件�
 | 账号 | Sftp账号 | 如实填写；如iStoreOS/OpenWrt，默认是登录路由器的用户名和密码。 |
 | 密码 | Sftp密码 | 如实填写；如iStoreOS/OpenWrt，默认是登录路由器的用户名和密码。 |
 
-填写Sftp协议的账号和密码，并添加，可选将账号和密码保存到浏览器。
+* 填写Sftp协议的账号和密码，并添加，可选将账号和密码保存到浏览器。
 
 ![WebDAV配置](../resources/ddnstofile/16.png)
 
-点击 Sftp 图标即可访问。
+* 点击添加的 Sftp 即可访问。
 
 ![WebDAV文件管理](../resources/ddnstofile/17.png)
 

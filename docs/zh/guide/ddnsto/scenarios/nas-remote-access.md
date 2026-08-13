@@ -55,9 +55,9 @@ docker run -d \
 
 ### 2. 添加 NAS 外网域名
 
-1. 登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
-2. 等待 NAS 设备上线
-3. 点击设备——「外网域名」—— **"+添加域名"** 
+登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 选择设备 → 外网域名，点击 **"+添加域名"** 
+
+![添加域名](../resources/scene/add.png)
 
 #### 群晖 DSM 映射
 

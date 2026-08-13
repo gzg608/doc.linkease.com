@@ -7,9 +7,9 @@
 
 1、HomeAssistant 已部署，且能正常访问；
 
-2、DDNSTO 控制台添加外网域名：
+2、登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 选择设备 → 外网域名，点击 **"+添加域名"** 
 
-进入[DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 设备工作台 → 点击选择设备 → 「外网域名」 → **"+添加域名"** 
+![添加域名](../resources/scene/add.png)
 
 ![智能家居](../resources/ha/1.png)
 

@@ -72,17 +72,17 @@ docker run -d \
 
 ### 3. 配置 DDNSTO 远程下载
 
-1. 登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
-2. 设备管理 → 设备 → 远程应用 → 点击 "+添加应用" → 选择 **"Aria2远程"**
+登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 选择设备 → 远程应用 → "添加应用" → 选择 **"Aria2远程"**
 
 ![添加远程下载](../resources/cloudapp/cloudapp-aria2-3.jpeg)
 
    - **应用名称**: 自定义，如 "家中下载"
    - **RPC 地址**: `http://路由器IP:6880/jsonrpc`
    - **密码**: 前面设置的 `RPC_SECRET`
-   - **"添加完成"** 后 → 远程应用 → 点击刚添加的 **"Aria2应用"** 即可进入
 
 ![添加远程下载](../resources/cloudapp/cloudapp-aria2-4.jpeg)
+
+   - **"添加完成"** 后 → 远程应用 → 点击刚添加的 **"Aria2应用"** 连接即可
 
 ![远程界面](../resources/cloudapp/cloudapp-aria2-5.jpeg)
 

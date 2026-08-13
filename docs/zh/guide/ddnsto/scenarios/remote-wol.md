@@ -8,6 +8,10 @@
 
 ---
 
+- ### <font color="#dd0000">注意：远程开机仅付费套餐（标准和高级）可用！</font><br />
+- ### <font color="#dd0000">注意：远程开机需 DDNSTO 支持拓展功能。</font><br />
+- #### <font color="#dd0000">注意：仅 "iStoreOS/OpenWrt/ASUSGO 固件" 安装 DDNSTO 可开启拓展功能。</font><br />
+
 ## 工作原理
 
 远程开机通过网络发送 "魔术包" (Magic Packet) 唤醒关机状态的电脑：
@@ -19,7 +23,6 @@
 **必要条件：**
 - ✅ 已购买会员套餐
 - ✅ DDNSTO 已启用扩展功能
-- ### <font color="#dd0000">DDNSTO 仅支持 "iStoreOS/OpenWrt/ASUSGO 固件" 开启拓展功能！</font><br />
 - ✅ 电脑通过网线连接到网络（WiFi 不支持 WOL）
 - ✅ 电脑主板支持并开启 Wake On LAN
 - ✅ 电脑有线网卡支持网络唤醒
@@ -118,8 +121,9 @@
 
 ### 2. 添加远程开机
 
-1. 登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
-2. 设备管理 → 设备 → 远程应用 → 点击 "+添加应用" → 选择 **"远程开机"**
+登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 选择设备 → 远程应用 → 点击 "添加应用" → 选择 **"远程开机"**
+
+![添加远程下载](../resources/cloudapp/cloudapp-aria2-3.jpeg)
 
    - **应用名称**: 自定义，如 "家中电脑"
    - **mac**: 电脑的 MAC 地址（格式 `AA:BB:CC:DD:EE:FF`）
@@ -134,7 +138,7 @@
 
 1. 将目标电脑关机
 2. 确保网线保持连接
-3. 远程应用 → 点击刚添加的 **"WOL应用"** 即可
+3. 远程应用 → 点击刚添加的 **"WOL应用"** 连接即可
 
 ![远程开机按钮](../resources/ddnstofile/wake14.jpg)
 

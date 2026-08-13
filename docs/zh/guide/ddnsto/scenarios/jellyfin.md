@@ -36,8 +36,9 @@ Jellyfin 是一个自由的软件媒体系统，用于控制和管理媒体和�
 
 ### 2. DDNSTO 添加外网域名
 
-1. 登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
-2. 外网域名，点击 **"+添加域名"** 
+登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 选择设备 → 外网域名，点击 **"+添加域名"** 
+
+![添加域名](../resources/scene/add.png)
 
 | 配置项 | 值 | 说明 |
 |-------|-----|------|

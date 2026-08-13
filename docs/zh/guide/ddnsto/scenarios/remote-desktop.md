@@ -8,6 +8,9 @@
 
 ---
 
+- ### <font color="#dd0000">注意：远程桌面功能仅付费高级套餐可用！</font><br />
+- ### <font color="#dd0000">注意：2026年8月1日前购买的标准套餐也可以使用。</font><br />
+
 ## 方案对比
 
 | 方案 | 适用系统 | 画质 | 延迟 | 推荐场景 |
@@ -56,8 +59,9 @@
 
 ### 2. 配置 DDNSTO 远程 RDP
 
-1. 登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
-2. 设备管理 → 设备 → 远程应用 → 点击 "+添加应用" → 选择 **"远程RDP"**
+登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 选择设备 → 远程桌面 → "添加桌面" → 选择 **"远程RDP"**
+
+![添加RDP](../resources/cloudapp/cloudapp-rdp5-1.jpg)
 
    - **应用名称**: 自定义，如 "家里电脑"
    - **IP**: 被控电脑的局域网 IP
@@ -67,13 +71,11 @@
 
 ![添加RDP](../resources/cloudapp/cloudapp-rdp5.jpg)
 
-3. 填写完成后添加
-
 ---
 
 ### 3. 开始远程控制
 
-**"添加完成"** 后 → 远程应用 → 点击刚添加的 **"RDP应用"** 即可进入
+**"添加完成"** 后 → 远程桌面 → 点击刚添加的 **"RDP应用"** 连接即可
 
 
 ![远程桌面](../resources/cloudapp/cloudapp-rdp6.jpg)
@@ -97,8 +99,9 @@
 
 ### 2. 配置 DDNSTO 远程 VNC
 
-1. 登录 DDNSTO 控制台
-2. 设备管理 → 设备 → 远程应用 → 点击 "+添加应用" → 选择 **"远程VNC"**
+登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 选择设备 → 远程桌面 → "添加桌面" → 选择 **"远程VNC"**
+
+![添加RDP](../resources/cloudapp/cloudapp-rdp5-1.jpg)
 
    - **应用名称**: 自定义
    - **IP**: 被控电脑 IP
@@ -108,13 +111,13 @@
 
 ![VNC配置](../resources/vnc/9.png)
 
-3. 填写完成后添加
+
 
 ---
 
 ### 3. 开始远程控制
 
-  - **"添加完成"** 后 → 远程应用 → 点击刚添加的 **"VNC应用"** 即可进入
+  - **"添加完成"** 后 → 远程桌面 → 点击刚添加的 **"VNC应用"** 连接即可
 
 
 ![VNC远程](../resources/vnc/10.png)
