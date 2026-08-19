@@ -6,11 +6,10 @@
 
 ## 购买套餐
 
-1. 登录 DDNSTO 控制台 → 购买套餐 → 选择方案 → 购买
+1. 登录 DDNSTO 控制台 → 设备套餐 → 购买套餐 → 选择方案 → 购买
 
 ![设备](../resources/question/buy01.png)
 
-![设备](../resources/question/buy02.png)
 
 2. 选择适合自己的续费套餐，完成支付即可
 
