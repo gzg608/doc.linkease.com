@@ -66,10 +66,15 @@
    - **应用名称**: 自定义，如 "家里电脑"
    - **IP**: 被控电脑的局域网 IP
    - **端口**: 3389（RDP 默认端口）
-   - **用户名**: Windows 登录用户名
-   - **密码**: Windows 登录密码
+   - **RDP security**: RDP 安全性——>自动协商（有需求可以自行更改NLA/TLS/RDP）
+   - **用户名和密码**: Windows 登录用户名、登录密码
+
 
 ![添加RDP](../resources/cloudapp/cloudapp-rdp5.jpg)
+
+   - **高级选项**: 如无特殊需求，忽略，保持默认即可。
+
+![添加RDP](../resources/cloudapp/cloudapp-rdp5.5.jpg)
 
 ---
 
